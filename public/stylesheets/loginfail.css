@@ -1,0 +1,31 @@
+body{
+    background-color:rgb(41, 80, 104);
+    margin: 0px;
+}
+
+h1{
+    background: white;
+    border-radius: 50px;
+    padding: 0px 150px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+p{
+    background: white;
+    border-radius: 50px;
+    padding: 0px 300px;
+    margin-right: 200px;
+    margin-left: 200px; 
+    font-size: 40px;
+}
+
+a{
+    background: gray;
+    border-radius: 50px;
+    padding: 0px 10px;
+    margin-right: 500px;
+    margin-left: 550px; 
+    font-size: 35px;
+    width: 25%;
+}

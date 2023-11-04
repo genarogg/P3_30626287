@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Imagenes</title>
+    <link rel="stylesheet" href="/stylesheets/aggim.css">
+</head>
+<body>
+   
+    <div>
+        <form action="/aggimg" method="post">
+            <h1>Agregar Imagen</h1>
+            <input type="text" name="url" id="url" placeholder="Ingrese la url de la imagen" required maxlength="200" minlength="3">
+            <select name="destacado" id="destacado">
+                <option value="">--Seleccione--</option>
+                <option value="Si">Si</option>
+                <option value="No">NO</option>
+            </select>
+            <select name="producto" id="producto">
+                <option value="" >--Seleccione--</option>
+                <% if (productos) { %>
+                    <% for (let i = 0; i < productos.length; i++){  %>
+                        <% if (productos) { %>
+                            <option value="<%= productos[i].id %>" id="producto_id" name="producto_id"><%= productos[i].nombre %></option> 
+                        <% } %>
+                    <% } %>
+                <% } else { %>
+                            <option value="">No existen productos en el sistema</option>
+                    <% }   %>
+            </select>
+            <button type="submit" class="btn btn-primary">Subir Imagen</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(41, 80, 104);
+    margin: 0px;
+}
+h1{
+    width: 500px;
+    font-family:'Calibir';
+    color: white;
+    margin-left :570px ;
+    font-size: 40px;
+}
+
+div{
+    margin-left : 60px; 
+    font-size: 27px;
+    background:white;
+    Border-radius: 50px;
+    margin-right: 55px;
+    padding: 0px  240px;
+    margin-top: 20px;
+    
+}
+
+.funciones{
+    margin-right: 55px;
+    padding: 0px  450px;
+
+}
+
+form{
+    margin-left : 265px; 
+}
+
+h5{
+    padding: 0px  250px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box 50px;
+}
+
+body {
+    background-color:rgb(41, 80, 104);
+    font-size: 25px;
+
+}
+
+.categorias{
+    background: gray ;
+    Border-radius: 50px;
+    margin-right: 600px;
+    margin-left :575px; 
+    padding: 7px 75px;
+   
+
+
+}
+
+.productos{
+    background: gray ;
+    Border-radius: 50px;
+    margin-right: 600px;
+    margin-left :575px; 
+    padding: 7px 75px;
+    margin-top: 5px;
+}
+
+.imagenes{
+    background: gray ;
+    Border-radius: 50px;
+    margin-right: 600px;
+    margin-left :575px; 
+    Border-radius: 50px;
+    margin-top: 5px;
+    padding: 7px 75px;
+}
+
+
+.pagina_Administrador{
+     width: 400px;
+    font-family:'Calibir';
+    color: white;
+    margin-left :530px ;
+    font-size: 40px;
+}
